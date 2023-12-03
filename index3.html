@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="index3.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">informations personnelles</a>
+        <a href="index1.html">centres d'interets</a>
+        <a href="index2.html">certificats</a>
+        <a href="index3.html">formulaire</a>
+    </nav>
+    
+        
+        <td>
+            <tr>
+                <td classe="BA"><h2> Ben Amer<br> Samar </h2><h3>Technicien Supérieur</h3></td>  
+                
+            </tr>
+        <h2 class="T">Recherche de stage:</h2>
+        <p><strong>Objet:</strong> En tanque étudiante à Esprit je suis à la recherche d'un offre de stage </p>
+        <p>Je suis attentive  à vos offres </p>
+        <div class="div"><form action="#" method="post">
+            <table>
+        <tr>
+            <td>
+        <label>Nom Recruteur: </label></td>
+        <td>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="20" size="10">
+    </td>
+    </tr>
+    <tr><td>Nom Société :</td>
+        <td><input type="texte" id="name" name="name" required minlength="3" maxlength="20" size1="10"></td>
+    </tr>
+        <tr>
+            <td>
+        <label for="pays">Pays:</label></td>
+        <td>
+        <select name="pays">
+            <option value="tn">Tunisie</option>
+            <option value="fr">France</option>
+            <option value="ca">Canada</option>
+            <option value="al">Allemagne</option>
+            <option value="eu">Etats-Unis</option></select>
+    </td>
+      </tr>
+      <tr>
+        <td>
+            <label for="email"> Email:</label>
+        </td>
+        <td>
+            <input type="email" placeholder="contact@exemple.com" name="email">
+        </td>
+      </tr>
+      <tr>
+        <td><label for="dob">Date de l'entretien: </label></td>
+        <td>
+            <input type="date" id="dob" name="dob" />
+        </td>
+    </tr>
+      <tr>
+        <td><label>Horaire de l'entretien:</label></td>
+        <td><input type="time" min="07:00" max="17:00" required></td>
+      </tr>
+      <tr>
+        <td><label for="add">Addresse Société :</label></td>
+        <td>
+            <textarea
+                name="add"
+                id="add"
+                cols="10"
+                rows="5"
+            ></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="téléphone"
+                >Numéro de téléphone <span>:</span></label
+            >
+        </td>
+        <td>
+            <input
+                type="numéro"
+                id="téléphone"
+                name="téléphone"
+                minlength="6"
+                required
+            />
+        </td>
+    </tr>
+      <tr>
+        <td><label>Type stage :</label></td>
+        <td> 
+            <label>
+                <input type="checkbox" name="speciality" value="présentielle">
+                présentielle
+            </label>
+            <label>
+                <input type="checkbox" name="speciality" value="à distance">
+                à distance
+            </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <label>Autre informations supplémentaire:</label>
+        </td>
+        <td><textarea
+            name="add"
+            id="add"
+            cols="10"
+            rows="5"
+        ></textarea></td>
+
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <button type="valider">valider</button>
+            <button type="supprimer">supprimer</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h3>Contactez moi</h3>
+
+            <a href="mailto:samar.benamer@esprit.tn"
+                >Email : samar.benamer@esprit.tn</a>
+        </td>
+        </table>
+        </form></div>
+   
+</body>
+</html>
